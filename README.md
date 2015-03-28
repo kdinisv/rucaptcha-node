@@ -1,13 +1,7 @@
 # rucaptcha-node
-Simple client for RuCaptcha.net using node.js
+Simple client for RuCaptcha.com using node.js
 
 [![NPM](https://nodei.co/npm/rucaptcha.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/rucaptcha/)
-
-### Installation:
-
-```sh
-$ npm i rucaptcha
-```
 
 ### API
 
@@ -18,7 +12,7 @@ $ npm i rucaptcha
         tmpDir:     './tmp',                //optional, default is './tmp'
         checkDelay: 1000                    //optional, default is 1000 - interval between captcha checks
       });
-  
+
   //You can pass and URL with image
   //for example from https://en.wikipedia.org/wiki/CAPTCHA
   //we take captcha image https://upload.wikimedia.org/wikipedia/commons/6/69/Captcha.jpg
@@ -28,7 +22,7 @@ $ npm i rucaptcha
     else
       console.log(answer); //captcha answer
   });
-  
+
   //if you have captcha file locally, you can pass path to file
   solver.solve('/Users/captcher/images/1.png', function(err, answer){
     if (err)
@@ -43,6 +37,7 @@ $ npm i rucaptcha
  - Add error handling
  - Add promises
  - Write tests
+ - Add more functions
 
 License
 ----
