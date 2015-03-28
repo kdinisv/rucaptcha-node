@@ -1,6 +1,8 @@
 # rucaptcha-node
 Simple client for RuCaptcha.net using node.js
 
+[![NPM](https://nodei.co/npm/rucaptcha.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/rucaptcha/)
+
 ### Installation:
 
 ```sh
